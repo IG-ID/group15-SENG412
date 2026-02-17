@@ -20,10 +20,7 @@ $employees = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <body>
     <nav>
         <ul>
-            <li><a href="../index.php">Home</a></li>
             <li><a href="payroll.php" class="active">Payroll</a></li>
-            <li><a href="gpa.php">GPA Calculator</a></li>
-            <li><a href="personal.php">Personal Details</a></li>
         </ul>
     </nav>
 
